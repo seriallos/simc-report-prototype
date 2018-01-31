@@ -1,0 +1,4243 @@
+{
+  "version": "735-01",
+  "ptr_enabled": 0,
+  "beta_enabled": 0,
+  "build_date": "Jan 30 2018",
+  "build_time": "17:39:10",
+  "git_revision": "418f87573",
+  "sim": {
+    "options": {
+      "debug": false,
+      "max_time": 300,
+      "expected_iteration_time": 360,
+      "vary_combat_length": 0.2,
+      "iterations": 10000,
+      "target_error": 0,
+      "threads": 24,
+      "seed": 3313186275279703000,
+      "single_actor_batch": true,
+      "queue_lag": 0.005,
+      "queue_lag_stddev": 0.001,
+      "gcd_lag": 0.15,
+      "gcd_lag_stddev": 0.037,
+      "channel_lag": 0.25,
+      "channel_lag_stddev": 0.062,
+      "queue_gcd_reduction": 0.1,
+      "strict_gcd_queue": 0,
+      "confidence": 0.95,
+      "confidence_estimator": 1.9599639854090543,
+      "world_lag": 0.1,
+      "world_lag_stddev": 0.01,
+      "travel_variance": 0,
+      "default_skill": 1,
+      "reaction_time": 0.5,
+      "regen_periodicity": 0.25,
+      "ignite_sampling_delta": 0.2,
+      "fixed_time": false,
+      "optimize_expressions": false,
+      "optimal_raid": 1,
+      "log": 0,
+      "debug_each": 0,
+      "auto_ready_trigger": 0,
+      "stat_cache": 1,
+      "max_aoe_enemies": 20,
+      "show_etmi": false,
+      "tmi_window_global": 0,
+      "tmi_bin_size": 0.5,
+      "enemy_death_pct": 0,
+      "challenge_mode": false,
+      "timewalk": -1,
+      "pvp_crit": false,
+      "rng": {
+        "name": "sse2-sfmt"
+      },
+      "deterministic": 0,
+      "average_range": 1,
+      "average_gauss": 0,
+      "fight_style": "Patchwerk",
+      "default_aura_delay": 0.03,
+      "default_aura_delay_stddev": 0.005,
+      "dbc": {
+        "Live": {
+          "build_level": 25901,
+          "wow_version": "7.3.5"
+        },
+        "version_used": "Live"
+      }
+    },
+    "overrides": {
+      "mortal_wounds": 1,
+      "bleeding": 1,
+      "bloodlust": 1,
+      "bloodlust_percent": 25,
+      "bloodlust_time": 0.5
+    },
+    "players": [
+      {
+        "name": "Seriallos",
+        "race": "tauren",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2994313.7980000004,
+            "count": 9976,
+            "mean": 300.1517439855654,
+            "min": 210.698,
+            "max": 393.484,
+            "median": 301.113,
+            "variance": 1925.2927040076327,
+            "std_dev": 43.87815748191385,
+            "mean_variance": 0.19299245228625025,
+            "mean_std_dev": 0.43930906237664874
+          },
+          "waiting_time": {
+            "sum": 440389.4380000001,
+            "count": 9976,
+            "mean": 44.14489153969528,
+            "min": 11.465,
+            "max": 83.267
+          },
+          "executed_foreground_actions": {
+            "sum": 2603660,
+            "count": 9976,
+            "mean": 260.9923817161187,
+            "min": 185,
+            "max": 334
+          },
+          "dmg": {
+            "sum": 5702066091823.812,
+            "count": 9976,
+            "mean": 571578397.3359876,
+            "min": 456548040.1066057,
+            "max": 690558472.2361008
+          },
+          "compound_dmg": {
+            "sum": 5702066091823.812,
+            "count": 9976,
+            "mean": 571578397.3359876,
+            "min": 456548040.1066057,
+            "max": 690558472.2361008
+          },
+          "timeline_dmg": {
+            "mean": 1899109.385356465,
+            "mean_std_dev": 833924.2885628981,
+            "min": 178885.82744000803,
+            "max": 7772464.969222885
+          },
+          "dps": {
+            "sum": 19098301636.12903,
+            "count": 9976,
+            "mean": 1914424.7830923244,
+            "min": 1653287.777824367,
+            "max": 2277601.844960995,
+            "median": 1907574.1420750357,
+            "variance": 9046047355.927956,
+            "std_dev": 95110.71104732608,
+            "mean_variance": 906781.010016836,
+            "mean_std_dev": 952.2504975146172
+          },
+          "dpse": {
+            "sum": 19098301636.128998,
+            "count": 9976,
+            "mean": 1914424.7830923214,
+            "min": 1653287.777824367,
+            "max": 2277601.844960995
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      },
+      {
+        "name": "highmountain",
+        "race": "highmountaintauren",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2991398.051999999,
+            "count": 9976,
+            "mean": 299.85946792301513,
+            "min": 206.961,
+            "max": 401.05400000000003,
+            "median": 300.765,
+            "variance": 1930.7525738676563,
+            "std_dev": 43.94032969684748,
+            "mean_variance": 0.19353975279346997,
+            "mean_std_dev": 0.4399315319381755
+          },
+          "waiting_time": {
+            "sum": 441869.25,
+            "count": 9976,
+            "mean": 44.29322874899759,
+            "min": 10.533,
+            "max": 89.732
+          },
+          "executed_foreground_actions": {
+            "sum": 2599378,
+            "count": 9976,
+            "mean": 260.563151563753,
+            "min": 187,
+            "max": 343
+          },
+          "dmg": {
+            "sum": 5616463004810.221,
+            "count": 9976,
+            "mean": 562997494.4677447,
+            "min": 450767787.1626676,
+            "max": 680178616.5371964
+          },
+          "compound_dmg": {
+            "sum": 5616463004810.221,
+            "count": 9976,
+            "mean": 562997494.4677447,
+            "min": 450767787.1626676,
+            "max": 680178616.5371964
+          },
+          "timeline_dmg": {
+            "mean": 1861322.2699265857,
+            "mean_std_dev": 808015.8285073302,
+            "min": 175554.6238252342,
+            "max": 7626288.950322652
+          },
+          "dps": {
+            "sum": 18830966548.582195,
+            "count": 9976,
+            "mean": 1887626.9595611664,
+            "min": 1625178.0262710727,
+            "max": 2225183.303997545,
+            "median": 1880707.4576877784,
+            "variance": 8738082667.844349,
+            "std_dev": 93477.71214489767,
+            "mean_variance": 875910.4518689204,
+            "mean_std_dev": 935.9008771600336
+          },
+          "dpse": {
+            "sum": 18830966548.582203,
+            "count": 9976,
+            "mean": 1887626.959561167,
+            "min": 1625178.0262710727,
+            "max": 2225183.303997545
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      },
+      {
+        "name": "void elf",
+        "race": "voidelf",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2994979.7329999995,
+            "count": 9976,
+            "mean": 300.2184976944667,
+            "min": 207.67600000000002,
+            "max": 396.48900000000003,
+            "median": 301.055,
+            "variance": 1935.023566541294,
+            "std_dev": 43.988902765826,
+            "mean_variance": 0.1939678795650856,
+            "mean_std_dev": 0.4404178465560695
+          },
+          "waiting_time": {
+            "sum": 442508.02599999995,
+            "count": 9976,
+            "mean": 44.35726002405774,
+            "min": 9.657,
+            "max": 85.8
+          },
+          "executed_foreground_actions": {
+            "sum": 2601895,
+            "count": 9976,
+            "mean": 260.8154570970329,
+            "min": 186,
+            "max": 337
+          },
+          "dmg": {
+            "sum": 5623295983578.9795,
+            "count": 9976,
+            "mean": 563682436.2047894,
+            "min": 451248219.29535604,
+            "max": 680595796.2973578
+          },
+          "compound_dmg": {
+            "sum": 5623295983578.9795,
+            "count": 9976,
+            "mean": 563682436.2047894,
+            "min": 451248219.29535604,
+            "max": 680595796.2973578
+          },
+          "timeline_dmg": {
+            "mean": 1872099.0086436467,
+            "mean_std_dev": 815658.4044245244,
+            "min": 178287.43949694044,
+            "max": 7657053.769526437
+          },
+          "dps": {
+            "sum": 18831318357.162445,
+            "count": 9976,
+            "mean": 1887662.2250563798,
+            "min": 1611403.9704749153,
+            "max": 2273559.836781316,
+            "median": 1882171.1589269622,
+            "variance": 8878194482.147594,
+            "std_dev": 94224.1714325342,
+            "mean_variance": 889955.3410332393,
+            "mean_std_dev": 943.3744437036861
+          },
+          "dpse": {
+            "sum": 18831318357.162464,
+            "count": 9976,
+            "mean": 1887662.2250563817,
+            "min": 1611403.9704749153,
+            "max": 2273559.836781316
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      },
+      {
+        "name": "nightborne",
+        "race": "nightborne",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2992173.3639999945,
+            "count": 9976,
+            "mean": 299.93718564554877,
+            "min": 206.10500000000002,
+            "max": 391.22,
+            "median": 301.243,
+            "variance": 1926.6378487648537,
+            "std_dev": 43.89348298739636,
+            "mean_variance": 0.1931272903733815,
+            "mean_std_dev": 0.439462501669234
+          },
+          "waiting_time": {
+            "sum": 440162.37000000017,
+            "count": 9976,
+            "mean": 44.12213011226947,
+            "min": 10.717,
+            "max": 83.529
+          },
+          "executed_foreground_actions": {
+            "sum": 2601807,
+            "count": 9976,
+            "mean": 260.80663592622295,
+            "min": 190,
+            "max": 343
+          },
+          "dmg": {
+            "sum": 5621358245149.805,
+            "count": 9976,
+            "mean": 563488196.1858264,
+            "min": 451173493.083486,
+            "max": 681576969.604113
+          },
+          "compound_dmg": {
+            "sum": 5621358245149.805,
+            "count": 9976,
+            "mean": 563488196.1858264,
+            "min": 451173493.083486,
+            "max": 681576969.604113
+          },
+          "timeline_dmg": {
+            "mean": 1871300.605577289,
+            "mean_std_dev": 823518.1828461807,
+            "min": 177689.35569634667,
+            "max": 7630091.807745232
+          },
+          "dps": {
+            "sum": 18841904996.837303,
+            "count": 9976,
+            "mean": 1888723.4359299622,
+            "min": 1607212.1530276046,
+            "max": 2274469.432392742,
+            "median": 1882611.709880551,
+            "variance": 8723624985.377413,
+            "std_dev": 93400.34788681149,
+            "mean_variance": 874461.2054307752,
+            "mean_std_dev": 935.1263045336577
+          },
+          "dpse": {
+            "sum": 18841904996.837296,
+            "count": 9976,
+            "mean": 1888723.4359299615,
+            "min": 1607212.1530276046,
+            "max": 2274469.432392742
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      },
+      {
+        "name": "lightforgeddraenei",
+        "race": "lightforgeddraenei",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2994334.261999997,
+            "count": 9976,
+            "mean": 300.15379530874065,
+            "min": 207.497,
+            "max": 399.507,
+            "median": 301.86400000000003,
+            "variance": 1936.7236046036526,
+            "std_dev": 44.008222011388426,
+            "mean_variance": 0.19413829236203414,
+            "mean_std_dev": 0.4406112712607726
+          },
+          "waiting_time": {
+            "sum": 441478.90199999994,
+            "count": 9976,
+            "mean": 44.254100040096226,
+            "min": 11.285,
+            "max": 81.309
+          },
+          "executed_foreground_actions": {
+            "sum": 2602977,
+            "count": 9976,
+            "mean": 260.92391740176424,
+            "min": 186,
+            "max": 340
+          },
+          "dmg": {
+            "sum": 5621862502383.313,
+            "count": 9976,
+            "mean": 563538743.2220643,
+            "min": 450309830.1774933,
+            "max": 680910260.3418256
+          },
+          "compound_dmg": {
+            "sum": 5621862502383.313,
+            "count": 9976,
+            "mean": 563538743.2220643,
+            "min": 450309830.1774933,
+            "max": 680910260.3418256
+          },
+          "timeline_dmg": {
+            "mean": 1883706.1419887424,
+            "mean_std_dev": 821066.9738729566,
+            "min": 177982.6428930116,
+            "max": 7632316.703835981
+          },
+          "dps": {
+            "sum": 18830575645.170097,
+            "count": 9976,
+            "mean": 1887587.7751774355,
+            "min": 1636796.3740267404,
+            "max": 2264989.328075047,
+            "median": 1881501.8272624572,
+            "variance": 8693529955.440905,
+            "std_dev": 93239.10100081888,
+            "mean_variance": 871444.4622534988,
+            "mean_std_dev": 933.5118972211864
+          },
+          "dpse": {
+            "sum": 18830575645.1701,
+            "count": 9976,
+            "mean": 1887587.775177436,
+            "min": 1636796.3740267404,
+            "max": 2264989.328075047
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      },
+      {
+        "name": "night elf",
+        "race": "night_elf",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2992846.117999997,
+            "count": 9976,
+            "mean": 300.00462289494754,
+            "min": 209.12800000000001,
+            "max": 395.17900000000003,
+            "median": 300.424,
+            "variance": 1906.79874030928,
+            "std_dev": 43.666906694993635,
+            "mean_variance": 0.19113860668697674,
+            "mean_std_dev": 0.4371940149258413
+          },
+          "waiting_time": {
+            "sum": 443616.95,
+            "count": 9976,
+            "mean": 44.46841920609463,
+            "min": 13.031,
+            "max": 83.66
+          },
+          "executed_foreground_actions": {
+            "sum": 2654040,
+            "count": 9976,
+            "mean": 266.0425020048115,
+            "min": 187,
+            "max": 343
+          },
+          "dmg": {
+            "sum": 5733056671901.004,
+            "count": 9976,
+            "mean": 574684910.9764439,
+            "min": 459855973.5182611,
+            "max": 695079092.2828178
+          },
+          "compound_dmg": {
+            "sum": 5733056671901.004,
+            "count": 9976,
+            "mean": 574684910.9764439,
+            "min": 459855973.5182611,
+            "max": 695079092.2828178
+          },
+          "timeline_dmg": {
+            "mean": 1914120.4004253692,
+            "mean_std_dev": 801390.1967801821,
+            "min": 180709.43972428737,
+            "max": 7721323.448401671
+          },
+          "dps": {
+            "sum": 19208993925.92482,
+            "count": 9976,
+            "mean": 1925520.6421336026,
+            "min": 1649384.4414120137,
+            "max": 2295555.094544502,
+            "median": 1918296.8150858274,
+            "variance": 8767368861.135206,
+            "std_dev": 93634.22911059398,
+            "mean_variance": 878846.1167938258,
+            "mean_std_dev": 937.4679284081274
+          },
+          "dpse": {
+            "sum": 19208993925.924835,
+            "count": 9976,
+            "mean": 1925520.6421336043,
+            "min": 1649384.4414120137,
+            "max": 2295555.094544502
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      },
+      {
+        "name": "troll",
+        "race": "troll",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2993497.5809999965,
+            "count": 9976,
+            "mean": 300.069925922213,
+            "min": 206.024,
+            "max": 391.413,
+            "median": 301.997,
+            "variance": 1944.4298044717575,
+            "std_dev": 44.09568918241054,
+            "mean_variance": 0.19491076628626278,
+            "mean_std_dev": 0.4414869944701234
+          },
+          "waiting_time": {
+            "sum": 439956.89900000015,
+            "count": 9976,
+            "mean": 44.10153358059344,
+            "min": 13.693,
+            "max": 86.84700000000001
+          },
+          "executed_foreground_actions": {
+            "sum": 2624315,
+            "count": 9976,
+            "mean": 263.06285084202085,
+            "min": 186,
+            "max": 343
+          },
+          "dmg": {
+            "sum": 5641490984776.366,
+            "count": 9976,
+            "mean": 565506313.6303495,
+            "min": 452164659.14351714,
+            "max": 682661899.3761858
+          },
+          "compound_dmg": {
+            "sum": 5641490984776.366,
+            "count": 9976,
+            "mean": 565506313.6303495,
+            "min": 452164659.14351714,
+            "max": 682661899.3761858
+          },
+          "timeline_dmg": {
+            "mean": 1870138.6137421704,
+            "mean_std_dev": 818692.2260669315,
+            "min": 173199.86668591027,
+            "max": 7793250.587720386
+          },
+          "dps": {
+            "sum": 18903300401.682762,
+            "count": 9976,
+            "mean": 1894877.7467605015,
+            "min": 1615720.5083427166,
+            "max": 2252840.3539304296,
+            "median": 1888657.8657626905,
+            "variance": 8950217316.60347,
+            "std_dev": 94605.58818908886,
+            "mean_variance": 897174.9515440527,
+            "mean_std_dev": 947.1931965254252
+          },
+          "dpse": {
+            "sum": 18903300401.68276,
+            "count": 9976,
+            "mean": 1894877.746760501,
+            "min": 1615720.5083427166,
+            "max": 2252840.3539304296
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      },
+      {
+        "name": "worgen",
+        "race": "worgen",
+        "level": 110,
+        "role": "attack",
+        "specialization": "Feral Druid",
+        "talents": [
+          {
+            "tier": 1,
+            "id": 22364,
+            "spell_id": 202022,
+            "name": "Blood Scent"
+          },
+          {
+            "tier": 2,
+            "id": 18570,
+            "spell_id": 102280,
+            "name": "Displacer Beast"
+          },
+          {
+            "tier": 3,
+            "id": 22163,
+            "spell_id": 197488,
+            "name": "Balance Affinity"
+          },
+          {
+            "tier": 4,
+            "id": 18576,
+            "spell_id": 102359,
+            "name": "Mass Entanglement"
+          },
+          {
+            "tier": 5,
+            "id": 21705,
+            "spell_id": 102543,
+            "name": "Incarnation: King of the Jungle"
+          },
+          {
+            "tier": 6,
+            "id": 22370,
+            "spell_id": 52610,
+            "name": "Savage Roar"
+          },
+          {
+            "tier": 7,
+            "id": 21646,
+            "spell_id": 236068,
+            "name": "Moment of Clarity"
+          }
+        ],
+        "artifact": [
+          {
+            "id": 1739,
+            "spell_id": 250879,
+            "name": "Netherlight Fortification",
+            "total_rank": 3,
+            "purchased_rank": 0,
+            "crucible_rank": 3,
+            "relic_rank": 0
+          },
+          {
+            "id": 1778,
+            "spell_id": 252875,
+            "name": "Shadowbind",
+            "total_rank": 1,
+            "purchased_rank": 0,
+            "crucible_rank": 1,
+            "relic_rank": 0
+          },
+          {
+            "id": 1780,
+            "spell_id": 252906,
+            "name": "Torment the Weak",
+            "total_rank": 2,
+            "purchased_rank": 0,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1153,
+            "spell_id": 210722,
+            "name": "Ashamane's Frenzy",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1154,
+            "spell_id": 210702,
+            "name": "Ashamane's Bite",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1155,
+            "spell_id": 210676,
+            "name": "Shadow Thrash",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1156,
+            "spell_id": 210666,
+            "name": "Open Wounds",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1157,
+            "spell_id": 210663,
+            "name": "Scent of Blood",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1158,
+            "spell_id": 210650,
+            "name": "Protection of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1159,
+            "spell_id": 210638,
+            "name": "Hardened Roots",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1160,
+            "spell_id": 210557,
+            "name": "Honed Instincts",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1161,
+            "spell_id": 210570,
+            "name": "Razor Fangs",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1162,
+            "spell_id": 210571,
+            "name": "Feral Power",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1163,
+            "spell_id": 210575,
+            "name": "Powerful Bite",
+            "total_rank": 5,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 1
+          },
+          {
+            "id": 1164,
+            "spell_id": 210579,
+            "name": "Ashamane's Energy",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1165,
+            "spell_id": 210590,
+            "name": "Attuned to Nature",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1166,
+            "spell_id": 210593,
+            "name": "Tear the Flesh",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 2,
+            "relic_rank": 0
+          },
+          {
+            "id": 1167,
+            "spell_id": 210631,
+            "name": "Feral Instinct",
+            "total_rank": 6,
+            "purchased_rank": 4,
+            "crucible_rank": 1,
+            "relic_rank": 1
+          },
+          {
+            "id": 1168,
+            "spell_id": 210637,
+            "name": "Sharpened Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1327,
+            "spell_id": 214736,
+            "name": "Shredder Fangs",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1365,
+            "spell_id": 214911,
+            "name": "Fangs of the First",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1505,
+            "spell_id": 238048,
+            "name": "Thrashing Claws",
+            "total_rank": 4,
+            "purchased_rank": 4,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1506,
+            "spell_id": 238084,
+            "name": "Fury of Ashamane",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1507,
+            "spell_id": 238120,
+            "name": "Bloodletter's Frailty",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1508,
+            "spell_id": 239042,
+            "name": "Concordance of the Legionfall",
+            "total_rank": 25,
+            "purchased_rank": 25,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          },
+          {
+            "id": 1633,
+            "spell_id": 241100,
+            "name": "Ferocity of the Cenarion Circle",
+            "total_rank": 1,
+            "purchased_rank": 1,
+            "crucible_rank": 0,
+            "relic_rank": 0
+          }
+        ],
+        "party": 0,
+        "ready_type": 0,
+        "bugs": true,
+        "scale_player": true,
+        "potion_used": false,
+        "timeofday": "DAY_TIME",
+        "invert_scaling": 0,
+        "reaction_offset": 0.1,
+        "reaction_max": 1.4000000000000001,
+        "reaction_mean": 0.3,
+        "reaction_stddev": 0.06,
+        "reaction_nu": 0.25,
+        "world_lag": 0.1,
+        "brain_lag": 0,
+        "brain_lag_stddev": 0,
+        "world_lag_override": false,
+        "world_lag_stddev_override": false,
+        "dbc": {
+          "Live": {
+            "build_level": 25901,
+            "wow_version": "7.3.5"
+          },
+          "version_used": "Live"
+        },
+        "professions": {
+          "alchemy": 800,
+          "herbalism": 815
+        },
+        "base_energy_regen_per_second": 10,
+        "collected_data": {
+          "fight_length": {
+            "sum": 2994023.6349999933,
+            "count": 9976,
+            "mean": 300.1226578789087,
+            "min": 206.25900000000001,
+            "max": 397.363,
+            "median": 302,
+            "variance": 1934.1991789221472,
+            "std_dev": 43.979531363148325,
+            "mean_variance": 0.19388524247415267,
+            "mean_std_dev": 0.44032401986963265
+          },
+          "waiting_time": {
+            "sum": 442258.17100000003,
+            "count": 9976,
+            "mean": 44.33221441459503,
+            "min": 10.089,
+            "max": 83.828
+          },
+          "executed_foreground_actions": {
+            "sum": 2602068,
+            "count": 9976,
+            "mean": 260.8327987169206,
+            "min": 187,
+            "max": 337
+          },
+          "dmg": {
+            "sum": 5655250096709.556,
+            "count": 9976,
+            "mean": 566885534.9548472,
+            "min": 453367175.79703367,
+            "max": 685601534.6491036
+          },
+          "compound_dmg": {
+            "sum": 5655250096709.556,
+            "count": 9976,
+            "mean": 566885534.9548472,
+            "min": 453367175.79703367,
+            "max": 685601534.6491036
+          },
+          "timeline_dmg": {
+            "mean": 1885599.965242002,
+            "mean_std_dev": 827688.2827123,
+            "min": 179852.159891713,
+            "max": 7681402.240166832
+          },
+          "dps": {
+            "sum": 18944957022.9059,
+            "count": 9976,
+            "mean": 1899053.4305238472,
+            "min": 1628907.5359876023,
+            "max": 2310264.723552757,
+            "median": 1891506.917461039,
+            "variance": 8990546558.124983,
+            "std_dev": 94818.49270118664,
+            "mean_variance": 901217.5779996975,
+            "mean_std_dev": 949.3248011085024
+          },
+          "dpse": {
+            "sum": 18944957022.90591,
+            "count": 9976,
+            "mean": 1899053.4305238484,
+            "min": 1628907.5359876023,
+            "max": 2310264.723552757
+          }
+        },
+        "gear": {
+          "head": {
+            "name": "behemoth_headdress",
+            "encoded_item": "behemoth_headdress,id=151801,bonus_id=1811/3630",
+            "ilevel": 1000,
+            "stamina": 8265,
+            "agiint": 5509,
+            "crit_rating": 1287,
+            "mastery_rating": 1115
+          },
+          "neck": {
+            "name": "vulcanarcore_pendant",
+            "encoded_item": "vulcanarcore_pendant,id=151965,bonus_id=3611/1487/3528,enchant_id=5439",
+            "ilevel": 945,
+            "stamina": 2785,
+            "versatility_rating": 2093,
+            "crit_rating": 1762
+          },
+          "shoulders": {
+            "name": "bearmantle_shoulders",
+            "encoded_item": "bearmantle_shoulders,id=152129,bonus_id=3610/1472/3528",
+            "ilevel": 930,
+            "stamina": 3229,
+            "agiint": 2153,
+            "versatility_rating": 782,
+            "mastery_rating": 604
+          },
+          "chest": {
+            "name": "bearmantle_harness",
+            "encoded_item": "bearmantle_harness,id=152124,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 4950,
+            "agiint": 3300,
+            "haste_rating": 1117,
+            "versatility_rating": 838
+          },
+          "waist": {
+            "name": "belt_of_fractured_sanity",
+            "encoded_item": "belt_of_fractured_sanity,id=151991,bonus_id=3611/1487/3528",
+            "ilevel": 945,
+            "stamina": 3713,
+            "agiint": 2475,
+            "crit_rating": 859,
+            "versatility_rating": 607
+          },
+          "legs": {
+            "name": "bearmantle_legguards",
+            "encoded_item": "bearmantle_legguards,id=152128,bonus_id=3611/1492/3336",
+            "ilevel": 950,
+            "stamina": 5187,
+            "agiint": 3458,
+            "crit_rating": 1167,
+            "haste_rating": 825
+          },
+          "feet": {
+            "name": "lifebearing_footpads",
+            "encoded_item": "lifebearing_footpads,id=151981,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "crit_rating": 826,
+            "mastery_rating": 696
+          },
+          "wrists": {
+            "name": "bracers_of_diabolic_fury",
+            "encoded_item": "bracers_of_diabolic_fury,id=152365,bonus_id=3614/1472/3528",
+            "ilevel": 930,
+            "stamina": 2422,
+            "agiint": 1615,
+            "haste_rating": 430,
+            "mastery_rating": 609
+          },
+          "hands": {
+            "name": "grips_of_hungering_shadows",
+            "encoded_item": "grips_of_hungering_shadows,id=152086,bonus_id=3611/1497/3336",
+            "ilevel": 955,
+            "stamina": 4076,
+            "agiint": 2717,
+            "versatility_rating": 891,
+            "haste_rating": 630
+          },
+          "finger1": {
+            "name": "seal_of_the_portalmaster",
+            "encoded_item": "seal_of_the_portalmaster,id=152063,bonus_id=3610/1808/1477/3336,gem_id=151585,enchant_id=5430",
+            "ilevel": 935,
+            "stamina": 2537,
+            "versatility_rating": 2281,
+            "haste_rating": 1347
+          },
+          "finger2": {
+            "name": "soul_of_the_archdruid",
+            "encoded_item": "soul_of_the_archdruid,id=151636,bonus_id=1811/3630,gem_id=151585,enchant_id=5430",
+            "ilevel": 1000,
+            "stamina": 4649,
+            "crit_rating": 922,
+            "haste_rating": 1538,
+            "mastery_rating": 1230
+          },
+          "trinket2": {
+            "name": "golganneths_vitality",
+            "encoded_item": "golganneths_vitality,id=154174,bonus_id=3984/3992",
+            "ilevel": 975,
+            "agility": 4150
+          },
+          "back": {
+            "name": "bearmantle_cloak",
+            "encoded_item": "bearmantle_cloak,id=152125,bonus_id=3611/40/1487/3528,enchant_id=5435",
+            "ilevel": 945,
+            "stamina": 2785,
+            "stragiint": 1856,
+            "crit_rating": 652,
+            "versatility_rating": 447,
+            "avoidance_rating": 471
+          },
+          "main_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128860,bonus_id=723,gem_id=155850/152028/152052,relic_id=3610:1482:3528/3611:1487:3528/3610:1477:3336",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          },
+          "off_hand": {
+            "name": "fangs_of_ashamane",
+            "encoded_item": "fangs_of_ashamane,id=128859",
+            "ilevel": 974,
+            "agility": 1853,
+            "stamina": 2780,
+            "crit_rating": 474,
+            "mastery_rating": 456
+          }
+        },
+        "custom": {}
+      }
+    ],
+    "statistics": {
+      "elapsed_cpu_seconds": 570.038561,
+      "elapsed_time_seconds": 24.741625,
+      "init_time_seconds": 10.123896325,
+      "merge_time_seconds": 0.050958418,
+      "analyze_time_seconds": 0.28885209,
+      "simulation_length": {
+        "sum": 23947566.54299998,
+        "count": 79808,
+        "mean": 300.06473715667573,
+        "min": 206.024,
+        "max": 401.05400000000003,
+        "median": 301.311,
+        "variance": 1929.9953207047627,
+        "std_dev": 43.93171201654635,
+        "mean_variance": 0.02418298066239929,
+        "mean_std_dev": 0.15550878001707585
+      },
+      "raid_dps": {
+        "sum": 151490318534.39468,
+        "count": 79808,
+        "mean": 1898184.6247794041
+      },
+      "total_dmg": {
+        "sum": 45214843581133.04,
+        "count": 79808,
+        "mean": 566545253.3722564
+      }
+    }
+  }
+}
